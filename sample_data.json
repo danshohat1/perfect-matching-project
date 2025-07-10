@@ -1,0 +1,29 @@
+{
+  "students": [
+    {"name": "Alice", "prefs": ["A", "B", "C"], "voice": 1.0},
+    {"name": "Bob",   "prefs": ["B", "A", "C"], "voice": 1.0},
+    {"name": "Dana",  "prefs": ["C", "A", "B"], "voice": 1.0},
+    {"name": "Eli",   "prefs": ["A", "C", "B"], "voice": 2.0},
+    {"name": "Tom",   "prefs": ["B", "C", "A"], "voice": 0.5}
+  ],
+  "universities": [
+    {
+      "name": "A",
+      "capacity": 2,
+      "prefs": ["Alice", "Eli", "Dana", "Tom", "Bob"],
+      "power": 3.0
+    },
+    {
+      "name": "B",
+      "capacity": 2,
+      "prefs": ["Bob", "Tom", "Alice", "Dana", "Eli"],
+      "power": 1.0
+    },
+    {
+      "name": "C",
+      "capacity": 1,
+      "prefs": ["Dana", "Eli", "Tom", "Bob", "Alice"],
+      "power": 5.0
+    }
+  ]
+}
